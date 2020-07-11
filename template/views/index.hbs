@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" href="/img/weather.png">
+    <title>weather</title>
+    <link rel="stylesheet" href="./css/style.css" type="text/css"> 
+     
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <p>This is created by {{name}}</p>
+    
+     <form>
+         <input type="text" placeholder="weather">
+         <button type="submit">click me</button>
+     </form>
+     <p id="msg_1"></p>
+     <p id="msg_2"></p>
+    </div>
+    {{>footer}}
+   <script src="/js/app.js"></script>
+</body>
+
+</html>
