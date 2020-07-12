@@ -8,7 +8,7 @@ const forecast = (lat , long , callback) => {
       } else if (body.message) {
           callback('unable to load location . please try with diff latitude and longitude! ', undefined )
       } else {
-        callback(undefined,body.main.temp)
+        callback(undefined,(body.main.temp - 273) + '℃. According to open Weather Map, Today Weather can be ' + body.weather[0].description)
       }
     })
 }

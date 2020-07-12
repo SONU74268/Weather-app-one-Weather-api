@@ -65,10 +65,10 @@ app.get('/weather',(req , res) => {
                         if (error) {
                             return res.send({error})
                         }
-                        const forecastData_calsius =  forecastData - 273
+                        //const forecastData_calsius =  forecastData - 273
                         res.send([{
                             location,
-                            forecast : forecastData_calsius,
+                            forecast : forecastData,
                             address: req.query.address
                         }])
                     })
