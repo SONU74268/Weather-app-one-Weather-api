@@ -3,6 +3,7 @@ const path = require('path')
 const hbs = require('hbs')
 const forecast = require('./utils/forecast.js')
 const geocode = require('./utils/geocode.js')
+const port = process.env.PORT || 9000
 
 //----------express Function call------------
 const app = express()
@@ -94,6 +95,6 @@ app.get('/help/*',(req,res) => {
 })
 //-----------create the lister for the local Host--------------
 
-app.listen(9000,( ) => {
-    console.log('server is up on port 9000!')
+app.listen(port,() => {
+    console.log('server is up on port ' + port)
 })
