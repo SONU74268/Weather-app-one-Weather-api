@@ -46,7 +46,7 @@ footer p{
 }
 
 #header_anker {
-    border: 1px solid #2e3841;
+    text-decoration: underline darkkhaki;
     padding: 3px;
     border-radius: 3px;
 }
@@ -75,4 +75,9 @@ button{
 
 #msgOne {
     text-decoration: underline;
+}
+
+body div h1 {
+    color: #555555;
+    font-size: x-large;
 }

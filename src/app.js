@@ -46,7 +46,7 @@ app.get('/about',(req , res) => {
     res.render('index_about',{
         title:'Weather',
         name:'sonu',
-        contact:'7426833775'
+        contact:'+917********5'
     })
 })
 
