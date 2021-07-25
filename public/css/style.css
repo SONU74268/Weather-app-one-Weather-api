@@ -1,83 +1,76 @@
 body {
-    color: #333333;
-    margin: 10px auto;
-    max-width: 500px;
-    padding: 0px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  color: #ffffff;
+  margin: 10px auto;
+  max-width: 500px;
+  padding: 0px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 header {
-    padding: 10px 0px;
-    color: #ffffff;
-    font-size: 20px;
-    
+  padding: 10px 0px;
+  color: #ffffff;
+  font-size: 20px;
 }
-
 
 header h2 {
-    text-decoration: line-through;
-    color: #888888;
-    font-size: 43px;
+  text-decoration: line-through;
+  color: #888888;
+  font-size: 43px;
 }
-
 
 header a {
-    color: #fdfefff1;
-    text-decoration: none;
-    margin-right: 10px;
-    
+  color: #fdfefff1;
+  text-decoration: none;
+  margin-right: 10px;
 }
-
 
 p {
-    padding: 5px;
-    color: #222222;
+  padding: 5px;
+  color: #222222;
 }
 
-footer p{
-    color: #555555;
-    border-top: 1px solid #333333;
-    padding-top: 40px;
-    
+footer p {
+  color: #555555;
+  border-top: 1px solid #333333;
+  padding-top: 40px;
 }
 
 #header_anker {
-    text-decoration: underline darkkhaki;
-    padding: 3px;
-    border-radius: 3px;
+  text-decoration: underline darkkhaki;
+  padding: 3px;
+  border-radius: 3px;
 }
 
 .main-content {
-    flex-grow: 1;
+  flex-grow: 1;
 }
 
 input {
-    border: 1px solid #dddddd;
-    padding: 8px;
-    margin: 2px;
-    color: rgb(6, 179, 29);
+  border: 1px solid #dddddd;
+  padding: 8px;
+  margin: 2px;
+  color: rgb(6, 179, 29);
 }
-button{
-    cursor: pointer;
-    background-color: #888888;
-    border: 1px solid #888888;
-    border-radius: 2px;
-    padding: 8px;
-    color: white;
-    margin: 2px;
-    font-size: 12px;
-
+button {
+  cursor: pointer;
+  background-color: #888888;
+  border: 1px solid #888888;
+  border-radius: 2px;
+  padding: 8px;
+  color: white;
+  margin: 2px;
+  font-size: 12px;
 }
 
 #msgOne {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 body div h1 {
-    color: #555555;
-    font-size: x-large;
+  color: #555555;
+  font-size: x-large;
 }
