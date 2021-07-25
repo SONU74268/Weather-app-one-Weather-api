@@ -18,7 +18,7 @@ header {
 
 header h2 {
   text-decoration: line-through;
-  color: #888888;
+  color: #ffffff;
   font-size: 43px;
 }
 
@@ -34,7 +34,7 @@ p {
 }
 
 footer p {
-  color: #555555;
+  color: #fafafa;
   border-top: 1px solid #333333;
   padding-top: 40px;
 }
@@ -47,6 +47,7 @@ footer p {
 
 .main-content {
   flex-grow: 1;
+  color: #fafafa;
 }
 
 input {
@@ -77,6 +78,6 @@ button {
 }
 
 body div h1 {
-  color: #555555;
+  color: #ffffff;
   font-size: x-large;
 }
