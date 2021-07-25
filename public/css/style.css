@@ -59,7 +59,7 @@ input {
     border: 1px solid #dddddd;
     padding: 8px;
     margin: 2px;
-    color: darkred;
+    color: rgb(6, 179, 29);
 }
 button{
     cursor: pointer;

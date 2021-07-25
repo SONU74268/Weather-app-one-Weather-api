@@ -36,17 +36,19 @@ app.get('',(req,res) => {
 
 app.get('/help',(req , res) => {
     res.render('index_help',{
-        title:'weather related',
+        title:'Weather',
         title1:'developer related ',
-        name:'mukesh'
+        name:'Shanti Lal Prajapat',
+        number:'+91 74*******5',
+        address:''
     })
 })
 
 app.get('/about',(req , res) => {
     res.render('index_about',{
         title:'Weather',
-        name:'sonu',
-        contact:'+917********5'
+        name:'Shanti lal Prajapat',
+        mail:'shantilal33@protonmail.com'
     })
 })
 
