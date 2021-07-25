@@ -68,6 +68,12 @@ button {
 
 #msgOne {
   text-decoration: underline;
+  color: #ffffff;
+}
+
+#msgTwo {
+  text-decoration: underline;
+  color: #ffffff;
 }
 
 body div h1 {
