@@ -29,7 +29,7 @@ hbs.registerPartials(partialPath)
 
 app.get('',(req,res) => {
     res.render('index',{
-        title:'Wather Home',
+        title:'Weather',
         name:'Shanti Lal Prajapat'
     })
 })
@@ -40,7 +40,7 @@ app.get('/help',(req , res) => {
         title1:'developer related ',
         name:'Shanti Lal Prajapat',
         number:'+91 74*******5',
-        address:''
+        address:'bhilwara, Rajasthan'
     })
 })
 
